@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NasirCars</title>
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome link -->
+    <script
+      src="https://kit.fontawesome.com/ad84f6ded1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="primary-bg">
+    <header>
+      <!-- First Navbar -->
+      <section class="bg-light">
+        <article class="container first-nav">
+          <div class="row">
+            <div class="col-md-6 text-left">
+                <a class="first-nav-link me-2" href="#"><i class="fas fa-envelope me-1"></i> info@nasircars.com</a>
+
+              
+                <a class="first-nav-link" href="#"><i class="fas fa-phone-alt me-1"></i> +880 1756-063729</a>
+            </div>
+            <div class="col-md-6 text-right me-auto">
+              <!-- <div class="input-group">
+                <input  type="text" placeholder="what are you looking for?">
+                <button type="button"><i class="fas fa-search"></i></button>
+                
+              </div> -->
+              <span >
+                <a href="#" class="icon-link"><i class="fab fa-facebook-square ms-2"></i></a>
+                <a href="#" class="icon-link"><i class="fab fa-twitter-square ms-1"></i></a>
+                <a href="#" class="icon-link"><i class="fab fa-linkedin ms-1"></i></a>
+                <a href="#" class="icon-link"><i class="fab fa-instagram ms-1"></i></a></span>
+            </div>
+            <hr>
+          </div>
+        </article>
+      </section>
+        
+
+      <!-- Second Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light second-nav">
+        <div class="container-fluid  container">
+          <a class="navbar-brand" style="color:#F67718" href="#">NasirCars</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" href="#">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" href="#">Rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" href="#">Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" href="#">servicing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" href="#">Contact</a>
+              </li>
+            </ul>
+            <button class="text-uppercase navbar-outline-btn ms-3" type="button">
+              Sign In
+            </button>
+            <button class="text-uppercase navbar-btn ms-2" type="button">
+              Sell
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- News -->
+      
+      <div class="news">
+        <h6 class="container my-auto"><i class="fas fa-bullhorn me-3"></i> New car sale updated. Stay tune</h6>
+      </div>
+      
+    <!-- Hero section start -->
+
+    <section class="container">
+      <article>
+        <div class="row">
+          <div class="col-md-6 mt-3">
+            <div class="card p-3" style="border:none">
+              <div class="hero-header">
+                <h5>Find your next car with us</h5>
+              <p>Leading online automotive marketplace in Bangladesh</p>
+              </div>
+              <form action="" class="hero-form">
+                <div class="input-group mb-3">
+                  <label class="input-group-text">Make</label>
+                  <select class="form-select">
+                    <option selected>Choose</option>
+                    <option value="1">One</option>
+                  </select>
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text">Model</label>
+                  <select class="form-select">
+                    <option selected>Choose</option>
+                    <option value="1">One</option>
+                  </select>
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text">Location</label>
+                  <select class="form-select">
+                    <option selected>Choose</option>
+                    <option value="1">One</option>
+                  </select>
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text">Price</label>
+                  <input type="text" placeholder="Min" class="form-control">
+                  <input type="text" style="border-left: 2px solid #def0f9;" placeholder="Max" class="form-control">
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text">Year</label>
+                  <input type="text" placeholder="Start year" class="form-control">
+                  <input type="text" style="border-left: 2px solid #def0f9;" placeholder="End year" class="form-control">
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text">Condition</label>
+                  <select class="form-select">
+                    <option selected>Choose</option>
+                    <option value="1">One</option>
+                  </select>
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text">Source</label>
+                  <select class="form-select">
+                    <option selected>Choose</option>
+                    <option value="1">One</option>
+                  </select>
+                </div>
+                <button class="form-control" type="button"><i class="fas fa-search me-1"></i> Search now</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-3">
+            <div class="card">
+              <img src="img/wheel-repair.png" alt="Wheel Repair" />
+            </div>
+            <div class="card content p-3 mt-3" style="border:none">
+              <h6 class="section-heading"><small>Featured services</small></h6>
+              <div class="row mt-1">
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/engine-repair.png" alt="Engine Repair" />
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/engine-repair.png" alt="Engine Repair" />
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/engine-repair.png" alt="Engine Repair" />
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/engine-repair.png" alt="Engine Repair" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Hero section end -->
+
+     <!-- Branch Section -->
+     <section class="container">
+      <article>
+        <div class="row mt-3">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-1.png" alt="branch one" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-2.png" alt="branch one" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-3.png" alt="branch one" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-4.png" alt="branch one" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-5.png" alt="branch one" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-6.png" alt="branch one" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-7.png" alt="branch one" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/branch-8.png" alt="branch one" />
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- Branch Section End -->
+
+    <!-- Most recent car for sales section start -->
+
+    <section class="container mt-3">
+      <div class="d-flex justify-content-between">
+        <h5 class="section-heading d-inline">Most recent cars for sale</h5> <a class="d-inline links" href="#">View all cars</a>
+      </div>
+      <article class="recent-car">
+        <div class="row row-cols-md-5 mt-2">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-md-5 mt-3">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+
+         <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/car.png" alt="" />
+              <div class="card-body">
+                <h4>
+                  2016 Toyota Fielder
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <p class=" d-inline  m-0 p-0">Price</p>
+                <p class=" d-inline  m-0 p-0">Mileage</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5 class=" d-inline">Tk 1,500,000</h5>
+                <h5 class=" d-inline">15000 kM</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class=" d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                <h6 class=" d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                </div>
+                <h6 class="text-center"><i class="far fa-clock"></i> 5 minutes ago</h6>
+              </div>
+            </div>
+          </div>
+          </div>
+      </article>
+    </section>
+
+    <!-- Most recent car for sales section end -->
+
+    <!-- Recommended section start -->
+
+    <section class="container mt-4">
+      <article class="recommended">
+        <div class="row">
+          <div class="col">
+            <div class="card recommended-card">
+              <div class="d-flex justify-content-between">
+                <h3 class="section-heading d-inline">Recommended for you <button type="button">Premium</button></h3> 
+                <span class="d-inline"><a href="#"><img src="img/left-angle.png" alt=""> <img class="ms-1" src="img/right-angle.png" alt=""></a></span>
+              </div>
+              <div class="row row-cols-md-5">
+                <div class="col">
+                  <div class="card" style=" border:none">
+                    <img class="card-img-top" src="img/car.png" alt="" />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        2016 Toyota Fielder
+                      </h4>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text d-inline  m-0 p-0">Price</p>
+                      <p class="card-text d-inline  m-0 p-0">Mileage</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h5 class=" d-inline">Tk 1,500,000</h5>
+                      <h5 class=" d-inline">15000 kM</h5>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h6 class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                      <h6 class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                      </div>
+                      <h6 class="text-center car-sale-time"><i class="far fa-clock"></i> 5 minutes ago</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style=" border:none">
+                    <img class="card-img-top" src="img/car.png" alt="" />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        2016 Toyota Fielder
+                      </h4>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text d-inline  m-0 p-0">Price</p>
+                      <p class="card-text d-inline  m-0 p-0">Mileage</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h5 class=" d-inline">Tk 1,500,000</h5>
+                      <h5 class=" d-inline">15000 kM</h5>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h6 class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                      <h6 class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                      </div>
+                      <h6 class="text-center car-sale-time"><i class="far fa-clock"></i> 5 minutes ago</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style=" border:none">
+                    <img class="card-img-top" src="img/car.png" alt="" />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        2016 Toyota Fielder
+                      </h4>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text d-inline  m-0 p-0">Price</p>
+                      <p class="card-text d-inline  m-0 p-0">Mileage</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h5 class=" d-inline">Tk 1,500,000</h5>
+                      <h5 class=" d-inline">15000 kM</h5>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h6 class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                      <h6 class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                      </div>
+                      <h6 class="text-center car-sale-time"><i class="far fa-clock"></i> 5 minutes ago</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style=" border:none">
+                    <img class="card-img-top" src="img/car.png" alt="" />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        2016 Toyota Fielder
+                      </h4>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text d-inline  m-0 p-0">Price</p>
+                      <p class="card-text d-inline  m-0 p-0">Mileage</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h5 class=" d-inline">Tk 1,500,000</h5>
+                      <h5 class=" d-inline">15000 kM</h5>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h6 class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                      <h6 class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                      </div>
+                      <h6 class="text-center car-sale-time"><i class="far fa-clock"></i> 5 minutes ago</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style=" border:none">
+                    <img class="card-img-top" src="img/car.png" alt="" />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        2016 Toyota Fielder
+                      </h4>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text d-inline  m-0 p-0">Price</p>
+                      <p class="card-text d-inline  m-0 p-0">Mileage</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h5 class=" d-inline">Tk 1,500,000</h5>
+                      <h5 class=" d-inline">15000 kM</h5>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <h6 class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</h6>
+                      <h6 class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</h6>
+                      </div>
+                      <h6 class="text-center car-sale-time"><i class="far fa-clock"></i> 5 minutes ago</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Recommended section end -->
+
+    <!-- Popular service section start -->
+
+    <section class="container mt-4">
+      <div class="d-flex justify-content-between">
+        <h5 class="section-heading d-inline">Popular services in your area</h5> <a class="d-inline links" href="#">View all services</a>
+      </div>
+      <article>
+        <div class="row row-cols-md-5 mt-2">
+          <div class="col">
+            <div class="card single-content">
+              <img class="" src="img/car service.png" alt="Engine Repair" />
+              <div class="text-content">
+                  <h5 class="m-0 p-0">Engine Service</h5>
+                  <hr class="one"/>
+                  <hr class="two"/>
+                
+                <div class="d-flex justify-content-between mt-3">
+                  <p class="d-inline m-0 p-0">Orders</p>
+                  <p class="d-inline m-0 p-0">Price range</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h6 class="d-inline">50</h6>
+                  <h6 class="d-inline">TK 150-250</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/car service.png" alt="Engine Repair" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/car service.png" alt="Engine Repair" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/car service.png" alt="Engine Repair" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/car service.png" alt="Engine Repair" />
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- Popular service section end -->
+
+    <!-- Rent car section start -->
+
+    <section class="container mt-4">
+      <article>
+        <div class="row rent-car">
+          <div class="col-md-6">
+            <div class="card p-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img/rent-car.png" alt="Rent Car">
+                </div>
+                <div class="col-md-6 text-center align-self-center">
+                  <h5>Rent your car with us</h5>
+                  <button class="navbar-outline-btn">Rent your car</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card p-3">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="img/rent-car.png" alt="Rent Car">
+                </div>
+                <div class="col-md-7 text-center align-self-center">
+                  <h5>Rent a car with affordable price</h5>
+                  <button class="navbar-outline-btn">Rent a car</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Rent car section end -->
+
+    <!-- Most selling accessories section start -->
+
+    <section class="container mt-4">
+      <div class="d-flex justify-content-between">
+        <h5 class="section-heading d-inline">Most selling accessories</h5> <a class="d-inline links" href="#">View all accessories <i class="fas fa-arrow-right" style="font-size:17px"></i></a>
+      </div>
+      <article>
+        <div class="row row-cols-md-5 mt-3 accessories">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/rim.png" alt="Rim" />
+              <div class="card-body">
+                <h5 class="card-title">Black Allow Rim</h5>
+                <p class="card-text">Price</p>
+                <h6 class="card-text">TK 1,500,000</h6>
+                <div class="d-flex justify-content-between">
+                  <p class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</p>
+                <p class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/rim.png" alt="Rim" />
+              <div class="card-body">
+                <h5 class="card-title">Black Allow Rim</h5>
+                <p class="card-text">Price</p>
+                <h6 class="card-text">TK 1,500,000</h6>
+                <div class="d-flex justify-content-between">
+                  <p class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</p>
+                <p class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/rim.png" alt="Rim" />
+              <div class="card-body">
+                <h5 class="card-title">Black Allow Rim</h5>
+                <p class="card-text">Price</p>
+                <h6 class="card-text">TK 1,500,000</h6>
+                <div class="d-flex justify-content-between">
+                  <p class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</p>
+                <p class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/rim.png" alt="Rim" />
+              <div class="card-body">
+                <h5 class="card-title">Black Allow Rim</h5>
+                <p class="card-text">Price</p>
+                <h6 class="card-text">TK 1,500,000</h6>
+                <div class="d-flex justify-content-between">
+                  <p class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</p>
+                <p class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="img/rim.png" alt="Rim" />
+              <div class="card-body">
+                <h5 class="card-title">Black Allow Rim</h5>
+                <p class="card-text">Price</p>
+                <h6 class="card-text">TK 1,500,000</h6>
+                <div class="d-flex justify-content-between">
+                  <p class="card-text d-inline"><i class="fas fa-map-marker-alt" style="color: #F67718"></i> Sylhet</p>
+                <p class="card-text d-inline"><i class="fas fa-flag" style="color: #F67718"></i> Used</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- Most selling accessories section end -->
+
+    <!-- Brand Section Start -->
+
+    <section class="container mt-4">
+      <div class="d-flex justify-content-between">
+        <h5 class="section-heading d-inline">Trending brand</h5> <a class="d-inline links" href="#">View all brands <i class="fas fa-arrow-right" style="font-size:17px"></i></a>
+      </div>
+      <article>
+        <div class="row mt-3 brand">
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/toyota-logo.png" alt="" />
+              <h6 class="card-text text-center">Toyota</h6>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/toyota-logo.png" alt="" />
+              <h6 class="card-text text-center">Toyota</h6>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/toyota-logo.png" alt="" />
+              <h6 class="card-text text-center">Toyota</h6>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/toyota-logo.png" alt="" />
+              <h6 class="card-text text-center">Toyota</h6>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/toyota-logo.png" alt="" />
+              <h6 class="card-text text-center">Toyota</h6>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/toyota-logo.png" alt="" />
+              <h6 class="card-text text-center">Toyota</h6>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Brand Section End -->
+
+    <!-- Discount section start -->
+
+    <section class="container">
+      <article>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="img/discount.png" alt="Discount" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="img/discount.png" alt="Discount" />
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- Discount section end -->
+
+    <!-- Article Section Start -->
+
+    <section class="container mt-4">
+      <div class="d-flex justify-content-between">
+        <h5 class="section-heading d-inline">Most recent articles</h5> <a class="d-inline links" href="#">View all articles <i class="fas fa-arrow-right" style="font-size:15px"></i></a>
+      </div>
+      <article>
+        <div class="row mt-2 articles">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/toyota.png" alt="Toyota Harrier" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <button class="d-inline" type="button">Car review</button>
+                  <h6 class="d-inline my-auto">5 minutes read</h6>
+                </div>
+                <h4 class="card-title">Toyota Harrier 2021 - Luxurious and 
+                  Sporty Like a Sedan</h4>
+                  <div class="d-flex justify-content-between">
+                    <h5 class="d-inline"><i class="far fa-clock"></i> 5 minutes ago</h5>
+                    <a href="#"><h5 class="d-inline">Details <i class="fas fa-arrow-right" style="font-size:13px"></i></h5></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/toyota.png" alt="Toyota Harrier" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <button class="d-inline" type="button">Car review</button>
+                  <h6 class="d-inline my-auto">5 minutes read</h6>
+                </div>
+                <h4 class="card-title">Toyota Harrier 2021 - Luxurious and 
+                  Sporty Like a Sedan</h4>
+                  <div class="d-flex justify-content-between">
+                    <h5 class="d-inline"><i class="far fa-clock"></i> 5 minutes ago</h5>
+                    <a href="#"><h5 class="d-inline">Details <i class="fas fa-arrow-right" style="font-size:13px"></i></h5></a>
+                  </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/toyota.png" alt="Toyota Harrier" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <button class="d-inline" type="button">Car review</button>
+                  <h6 class="d-inline my-auto">5 minutes read</h6>
+                </div>
+                <h4 class="card-title">Toyota Harrier 2021 - Luxurious and 
+                  Sporty Like a Sedan</h4>
+                  <div class="d-flex justify-content-between">
+                    <h5 class="d-inline"><i class="far fa-clock"></i> 5 minutes ago</h5>
+                    <a href="#"><h5 class="d-inline">Details <i class="fas fa-arrow-right" style="font-size:13px"></i></h5></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/toyota.png" alt="Toyota Harrier" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <button class="d-inline" type="button">Car review</button>
+                  <h6 class="d-inline my-auto">5 minutes read</h6>
+                </div>
+                <h4 class="card-title">Toyota Harrier 2021 - Luxurious and 
+                  Sporty Like a Sedan</h4>
+                  <div class="d-flex justify-content-between">
+                    <h5 class="d-inline"><i class="far fa-clock"></i> 5 minutes ago</h5>
+                    <a href="#"><h5 class="d-inline">Details <i class="fas fa-arrow-right" style="font-size:13px"></i></h5></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Article Section End -->
+
+    <footer class="mt-4">
+      <section class=" first-footer">
+      <article class=" container">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Contact Info</h5>
+            <p class="m-0 p-0">Address</p>
+            <h6>Nurani - 12/4, Dighirpar,
+              Subidbazar, Sylhet</h6>
+              <p class="m-0 p-0">Email</p>
+              <h6>info@nasircars.com</h6>
+              <p class="m-0 p-0">Phone</p>
+              <h6>+880 1756-063729</h6>
+              <h5>Stay connected</h5>
+              <a href="#"><img src="img/facebook.png" width="30px" alt="Facebook"></a>
+              <a href="#"><img src="img/twitter.png"  width="30px" alt="Facebook"></a>
+              <a href="#"><img src="img/linkedin.png"  width="30px" alt="Facebook"></a>
+              <a href="#"><img src="img/instagram.png"  width="30px" alt="Facebook"></a>
+              <a href="#"><img src="img/whatsapp.png"  width="30px" alt="Facebook"></a>
+          </div>
+
+          <div class="col-md-3">
+            <h5>Quicks links</h5>
+            <h6>About us</h6>
+            <h6>Contact us</h6>
+            <h6>Privacy policy</h6>
+            <h6>Terms & conditions</h6>
+            <h6>Subscription</h6>
+            <h6>Accessories</h6>
+            <h6>FAQ</h6>
+            <h6>Blog</h6>
+          </div>
+          
+          <div class="col-md-6">
+            <h5>Subscribe newsletter</h5>
+            <form action="">
+              <div class="d-flex justify-content-between">
+                <input class="form-control d-inline" type="email" placeholder="Enter your email address">
+                <button class="ms-3"  type="button">Subscribe</button>
+            </div>
+            </form>
+            <h5>Download app</h5>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/play-store.png" alt="Google Play">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/app-store.png" alt="App Store">
+                </div>
+              </div>
+              <div class="col-md-4"></div>
+            </div>
+            <h5>We accept</h5>
+            <a href="#"><img src="img/bKash.png" width="40px" alt=""></a>
+            <a href="#"><img src="img/bKash.png" width="40px" alt=""></a>
+            <a href="#"><img src="img/bKash.png" width="40px" alt=""></a>
+            <a href="#"><img src="img/bKash.png" width="40px" alt=""></a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="second-footer">
+      <article class="container">
+        <div class="d-flex justify-content-between">
+          <p class="my-auto">2021 &copy All rights reserved. <a href="#">Nasircars.com</a></p>
+          <p class="my-auto">Developed by <a href="#">Lustertouch</a></p>
+        </div>
+      </article>
+    </section>
+    </footer>
+
+    <!-- Bootstrap JS Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

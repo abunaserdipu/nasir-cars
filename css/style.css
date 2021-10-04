@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --main-bg-color: #edf2f2;
+  --second-bg-color: #f67718;
+  --second-text-color: #f67718;
+}
+
+.primary-bg {
+  background-color: var(--main-bg-color);
+}
+
+.second-bg {
+  background-color: var(--second-bg-color);
+}
+
+.second-text {
+  color: var(--second-text-color);
+}
+
+.primary-btn {
+  background-color: #f67718;
+  border: none;
+}
+
+.first-nav {
+  font-size: 13px;
+}
+
+.first-nav-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #323a40;
+}
+
+.first-nav input {
+  font-size: 13px;
+  border: none;
+  outline: none;
+  background-color: #f1f8ff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.first-nav input::placeholder {
+  font-weight: 700;
+  color: #848e97;
+  font-size: 9px;
+  text-align: center;
+}
+
+.first-nav button {
+  border: none;
+  background-color: #def0f9;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.first-nav .fa-search {
+  font-size: 9px;
+}
+
+.firs-nav .icon-link {
+  text-decoration: none;
+  color: #323a40;
+  font-size: 13px;
+}
+
+.second-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.second-nav .navbar-brand {
+  font-weight: 500;
+}
+
+.second-nav .navbar-nav > .nav-link > .active {
+  color: #f67718 !important;
+}
+
+.second-nav .navbar-nav > .navbar-link > .active > a {
+  color: #f67718;
+}
+
+.section-heading {
+  font-weight: 700;
+  color: #323a40;
+}
+
+.navbar-outline-btn {
+  background-color: #ffff;
+  color: #f67718;
+  font-weight: 700;
+  font-size: 13px;
+  border: 2px solid #f67718;
+  border-radius: 3px;
+  padding: 3px 10px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.navbar-outline-btn:hover {
+  background-color: #f67718;
+  color: #ffff;
+}
+
+.navbar-btn {
+  background-color: #f67718;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  border: 2px solid #f67718;
+  border-radius: 3px;
+  padding: 3px 10px;
+  text-transform: uppercase;
+}
+
+.news {
+  background-image: linear-gradient(to right, #f67718, #ec9005);
+  color: #ffff;
+  padding: 10px 0;
+}
+
+.news h6 {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.hero-header {
+  text-align: center;
+}
+
+.hero-header h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-header p {
+  color: #6f7981;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.hero-form input,
+.hero-form select {
+  background-color: #f1f8ff;
+  color: #848e97;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.hero-form placeholder,
+.hero-form select {
+  color: #848e97;
+  font-weight: 700;
+}
+
+.hero-form label {
+  background-color: #def0f9;
+  color: #515e6a;
+  width: 100px;
+  border: none;
+  font-weight: 700;
+}
+
+.hero-form button {
+  border: none;
+  background-color: #f25d1c;
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+.links {
+  text-decoration: none;
+  color: #f67718;
+  font-weight: 700;
+  outline: none;
+}
+
+.links:hover {
+  color: #f67718;
+}
+
+.recent-car .card {
+  border: none;
+  border-radius: 3px;
+}
+
+.recent-car h4 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #323a40;
+}
+
+.recent-car p {
+  font-weight: 700;
+  color: #6f7981;
+  font-size: 10px;
+}
+
+.recent-car h5 {
+  font-weight: 700;
+  color: #515e6a;
+  font-size: 12px;
+}
+
+.recent-car h6 {
+  font-weight: 700;
+  color: #6f7981;
+  font-size: 11px;
+  padding: 3px 0 0;
+}
+
+.recent-car .fa-clock {
+  font-size: 15px;
+}
+
+.recommended .card {
+  border: none;
+  border-radius: 3px;
+}
+
+.recommended .recommended-card {
+  padding: 25px 15px 5px;
+}
+
+.recommended a {
+  text-decoration: none;
+}
+
+.recommended h3 {
+  font-weight: 700;
+  color: #323a40;
+  font-size: 20px;
+}
+
+.recommended button {
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ffff;
+  background-image: linear-gradient(to right, #f67718, #ec9005);
+  padding: 5px 10px;
+}
+
+.recommended h4 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #323a40;
+}
+
+.recommended p {
+  font-weight: 700;
+  color: #6f7981;
+  font-size: 10px;
+}
+
+.recommended h5 {
+  font-weight: 700;
+  color: #515e6a;
+  font-size: 12px;
+}
+
+.recommended h6 {
+  font-weight: 700;
+  color: #6f7981;
+  font-size: 11px;
+  padding: 3px 0 0;
+}
+
+.recommended .fa-clock {
+  font-size: 15px;
+}
+
+.single-content {
+  position: relative;
+}
+
+.single-content .text-content,
+.single-content:after {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+}
+
+.single-content:after {
+  content: "";
+  display: block;
+  background: #ffff;
+  top: 20px;
+  bottom: 20px;
+  opacity: 0;
+  transition: 0.4s;
+  border-radius: 3px;
+}
+
+.single-content:hover:after {
+  opacity: 1;
+}
+
+.single-content img {
+  width: 100%;
+  height: auto;
+}
+
+.text-content {
+  top: 30%;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+  text-align: center;
+  padding: 7px;
+}
+
+.text-content h5 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #323a40;
+  text-transform: uppercase;
+}
+
+.text-content p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #6f7981;
+}
+
+.text-content h6 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #515e6a;
+}
+
+.single-content:hover .text-content {
+  opacity: 1;
+  transition-delay: 0.3s;
+}
+
+hr.one {
+  width: 40%;
+  height: 2px;
+  background: orangered;
+  border: none;
+  text-align: center;
+  margin: 2px auto 1px;
+  display: block;
+}
+
+hr.two {
+  width: 30%;
+  height: 1px;
+  background: orangered;
+  border: 1px solid orangered;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.rent-car h5 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #323a40;
+  text-transform: uppercase;
+}
+
+.rent-car .card {
+  border: none;
+}
+
+.accessories .card {
+  border: none;
+}
+
+.accessories img {
+  padding: 0 30px;
+}
+
+.accessories h5 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #323a40;
+}
+
+.accessories p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #6f7981;
+}
+
+.accessories h6 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #515e6a;
+}
+
+.brand .card {
+  border: none;
+}
+
+.brand img {
+  padding: 15px 40px 10px;
+}
+
+.brand h6 {
+  padding: 0 0px 15px;
+  color: #515e6a;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.articles .card {
+  border: none;
+}
+
+.articles button {
+  background-color: #f67718;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 10px;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.articles h6 {
+  font-weight: 700;
+  font-size: 11px;
+  color: #6f7981;
+  text-align: center;
+}
+
+.articles h4 {
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px 0 0;
+  color: #323a40;
+  text-transform: capitalize;
+}
+
+.articles h5 {
+  font-weight: 700;
+  font-size: 11px;
+  color: #515e6a;
+  padding: 5px 0;
+}
+
+.articles a {
+  text-decoration: none;
+}
+
+.first-footer {
+  background-color: #263a4a;
+  padding: 0 0 30px 0;
+}
+
+.first-footer h5 {
+  font-weight: 700;
+  color: #ffff;
+  padding: 30px 0 5px;
+  text-transform: capitalize;
+}
+
+.first-footer p {
+  font-weight: 600;
+  color: #d8d8d8;
+  font-size: 11px;
+}
+
+.first-footer h6 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffff;
+}
+
+.first-footer input {
+  color: #848e97;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.first-footer button {
+  border: none;
+  border-radius: 3px;
+  background-color: #f25d1c;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 13px 25px;
+}
+
+.second-footer {
+  background-color: #ffff;
+  padding: 25px 0;
+}
+
+.second-footer p {
+  font-weight: 700;
+  color: #515e6a;
+  font-size: 13px;
+}
+
+.second-footer a,
+.second-footer a:hover {
+  font-weight: 700;
+  color: #f56526;
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+}
