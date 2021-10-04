@@ -44,32 +44,34 @@
   border: none;
   outline: none;
   background-color: #f1f8ff;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  padding: 0 20px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .first-nav input::placeholder {
   font-weight: 700;
   color: #848e97;
-  font-size: 9px;
+  font-size: 10px;
   text-align: center;
 }
 
 .first-nav button {
   border: none;
   background-color: #def0f9;
-  padding: 3px 10px;
-  border-radius: 5px;
+  padding: 0 10px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .first-nav .fa-search {
   font-size: 9px;
 }
 
-.firs-nav .icon-link {
+.first-nav .icon-link {
   text-decoration: none;
   color: #323a40;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .second-nav .nav-link {
@@ -78,12 +80,16 @@
   font-size: 13px;
 }
 
+.second-nav .navbar-nav > .nav-item > .nav-link:hover {
+  color: #f67718;
+}
+
 .second-nav .navbar-brand {
   font-weight: 500;
 }
 
-.second-nav .navbar-nav > .nav-link > .active {
-  color: #f67718 !important;
+.second-nav .navbar-nav > .nav-item > .nav-link.active {
+  color: #f67718;
 }
 
 .second-nav .navbar-nav > .navbar-link > .active > a {
