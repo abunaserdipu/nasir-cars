@@ -568,4 +568,63 @@ hr.two {
 }
 
 @media (min-width: 576px) {
+  .first-nav {
+    font-size: 10px;
+  }
+
+  .first-nav .icon-link {
+    font-size: 12px;
+  }
+
+  .first-nav input {
+    padding: 0 0;
+  }
+
+  .featured-services .card {
+    margin-bottom: 15px;
+  }
+
+  .branch .card {
+    margin-bottom: 10px;
+  }
+
+  .help img {
+    height: 90px;
+  }
+
+  .accessories .card {
+    margin-bottom: 15px;
+  }
+
+  .recent-car .card {
+    margin-bottom: 15px;
+  }
+
+  .recommended .recommended-card {
+    margin-bottom: 15px;
+  }
+
+  .popular-service .card {
+    margin-bottom: 15px;
+  }
+
+  .rent-car .card {
+    margin-bottom: 15px;
+  }
+
+  .brand .card {
+    margin-bottom: 15px;
+  }
+
+  .discount .card {
+    margin-bottom: 15px;
+  }
+
+  .articles .card {
+    margin-bottom: 15px;
+  }
+
+  .first-footer .card {
+    margin-bottom: 15px;
+  }
 }
