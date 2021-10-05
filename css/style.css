@@ -604,11 +604,19 @@ hr.two {
   }
 
   .first-nav input {
-    padding: 0 0;
+    padding: 0 5px;
+  }
+
+  .first-nav input::placeholder {
+    font-size: 9px;
+  }
+
+  .first-nav .fa-search {
+    font-size: 5px;
   }
 
   .first-nav button {
-    padding: 0 0;
+    padding: 0;
   }
 
   .featured-services .card {
@@ -636,7 +644,18 @@ hr.two {
   }
 
   .recommend-icon-button-left {
-    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .recommend-icon-button-right {
+    width: 20px;
+    height: 20px;
+  }
+
+  .recommend-icon {
+    font-size: 20px;
+    text-align: center;
   }
 
   .popular-service .card {
