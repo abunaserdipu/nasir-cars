@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -604,11 +605,12 @@ hr.two {
   }
 
   .first-nav input {
-    padding: 0 5px;
+    width: 90%;
+    padding: 0 10px;
   }
 
   .first-nav input::placeholder {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .first-nav .fa-search {
