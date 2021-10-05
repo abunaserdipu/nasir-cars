@@ -576,7 +576,15 @@ hr.two {
     font-size: 12px;
   }
 
+  .first-nav .first-nav-link {
+    display: inline-block;
+  }
+
   .first-nav input {
+    padding: 0 0;
+  }
+
+  .first-nav button {
     padding: 0 0;
   }
 
