@@ -290,7 +290,7 @@
   font-size: 20px;
 }
 
-.recommended button {
+.recommended .recommend-button {
   border: none;
   border-radius: 3px;
   font-weight: 700;
@@ -299,6 +299,29 @@
   color: #ffff;
   background-image: linear-gradient(to right, #f67718, #ec9005);
   padding: 5px 10px;
+}
+
+.recommend-icon-button-left {
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #9aa1a7;
+  margin-right: 10px;
+}
+
+.recommend-icon-button-right {
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #6f7981;
+}
+
+.recommend-icon {
+  font-size: 25px;
+  color: #ffff;
+  text-align: center;
 }
 
 .recommended h4 {
@@ -610,6 +633,10 @@ hr.two {
 
   .recommended .recommended-card {
     margin-bottom: 15px;
+  }
+
+  .recommend-icon-button-left {
+    margin-right: 5px;
   }
 
   .popular-service .card {
