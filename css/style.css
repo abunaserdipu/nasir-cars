@@ -633,12 +633,28 @@ hr.two {
     height: 90px;
   }
 
+  .accessories img {
+    padding: 0 40px;
+  }
+
   .accessories .card {
     margin-bottom: 15px;
   }
 
+  .accessories .row-cols-md-5 {
+    display: block;
+  }
+
+  .recent-car .row-cols-md-5 {
+    display: block;
+  }
+
   .recent-car .card {
     margin-bottom: 15px;
+  }
+
+  .recommended .row-cols-md-5 {
+    display: block;
   }
 
   .recommended .recommended-card {
@@ -664,8 +680,16 @@ hr.two {
     margin-bottom: 15px;
   }
 
+  .popular-service .row-cols-md-5 {
+    display: block;
+  }
+
   .rent-car .card {
     margin-bottom: 15px;
+  }
+
+  .brand img {
+    padding: 15px 50px 10px;
   }
 
   .brand .card {
